@@ -1,3 +1,15 @@
+Modified for latitude and longtitude data from https://github.com/jeffkaufman/apartment_prices
+
+install for some library with python -m pip install <sth_library>
+
+- query_padmapper.py is library for 2 other
+- draw_heatmap.py create json and png
+  ex. python draw_heatmap.py apts-1363604521.txt
+- draw_dots_at_price.py create png??
+  ex. python draw_dots_at_price.py apts-1363604521.txt 2br
+
+--------
+
 Apartment Mapping
 
 Used data from padmapper -> check out padmapper.com

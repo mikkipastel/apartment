@@ -104,5 +104,5 @@ def start(fname, n_bedrooms):
     I.save(fname + "." + n_bedrooms + "br." + str(MAX_X) + ".png", "PNG")
 
 if __name__ == "__main__":
-    #python draw_dots_at_price.py boston 2br
+    #python draw_dots_at_price.py apts-1363604521.txt 2br
     start(*sys.argv[1:])
